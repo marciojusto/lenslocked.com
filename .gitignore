@@ -27,3 +27,13 @@ _testmain.go
 **/.idea/workspace.xlm
 
 .DS_Store
+
+# Security / ssl
+*.pem
+*.xxjson
+
+# Anything under a tmp folder
+**/tmp/*
+
+# Don't include our binary
+lenslocked.com
